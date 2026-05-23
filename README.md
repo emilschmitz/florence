@@ -4,6 +4,7 @@
 
 Named in honor of a famous [pioneering nurse](https://en.wikipedia.org/wiki/Florence_Nightingale), Florence is an agentic clinical check-in tool. It monitors patient well-being and helps patients stay on track with their treatment between health provider visits. Using AI, Florence is able to intelligently adapt its behavior to the patient's needs and current state.
 
+https://github.com/user-attachments/assets/474f2bcb-d11e-4b31-993d-523c96b0a70a
 
 ---
 
