@@ -1,0 +1,18 @@
+{
+  "frequency_days": 2,
+  "auto_adjust_frequency": true,
+  "notification_channels": [
+    "email",
+    "push"
+  ],
+  "contact_instructions": "Email practitioner immediately if patient reports 'worse' mood for 2 consecutive check-ins. If medication is missed 3 times in a week, send a push reminder to the patient.",
+  "trigger_conditions": {
+    "missed_medication_days": 3,
+    "significant_worsening": true
+  },
+  "questions": [
+    "How are you feeling compared to our last session?",
+    "Did you manage to take your Wellbutrin today?",
+    "Anything specific weighing on your mind?"
+  ]
+}

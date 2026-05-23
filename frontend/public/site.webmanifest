@@ -1,0 +1,14 @@
+{
+  "name": "Florence - Checkup Assistant",
+  "short_name": "Florence",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#ff3366",
+  "background_color": "#fdfaf6",
+  "display": "standalone"
+}

@@ -1,0 +1,671 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Jenkins",
+    "condition": "Major Depressive Disorder",
+    "nextProviderVisitDate": "2026-06-05",
+    "medications": [
+      "Wellbutrin 150mg",
+      "Lexapro 10mg"
+    ],
+    "history": [
+      {
+        "type": "provider-visit",
+        "date": "2026-04-21",
+        "prescriptions": [
+          "Wellbutrin 150mg",
+          "Lexapro 10mg"
+        ],
+        "notes": "INITIAL PSYCHIATRIC EVALUATION\n\nChief Complaint:\n29-year-old woman presents with persistent low mood, anhedonia, and decreased energy over the past 6 months.\n\nHistory of Present Illness:\nSarah describes a gradual onset of depressive symptoms following a job change. Reports sleep disturbance (early morning awakening) and poor concentration. Denies history of mania or hypomania.\n\nPast Psychiatric History:\nOne previous episode in college, treated with counseling only.\n\nFamily/Social History:\n- Mother with history of depression.\n- Lives alone, works in marketing, supportive sister nearby.\n\nMental Status Exam:\n- Well-groomed female, speech normal rate/volume.\n- Mood: 'low', affect: congruent and restricted.\n- Thought process: linear. No psychosis.\n- Insight and judgment: good.\n\nDiagnosis:\nMajor Depressive Disorder, recurrent, moderate.\n\nTreatment Plan:\n1. Initiate Bupropion (Wellbutrin) 150mg XL daily and Escitalopram (Lexapro) 10mg daily.\n2. Discussed potential side effects (GI upset, dry mouth, insomnia).\n3. Safety plan discussed.\n4. Scheduled automated digital check-ins every 2 days."
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-24",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Actually had a great day today! Feeling very energetic.",
+        "value": 5,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-26",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Routine is helping. I'm sticking to my morning walks.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-28",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Feeling decent. Had a good call with my mom.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-30",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Neutral day. A bit bored, but otherwise fine.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-02",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Doing okay. Work was a bit busy but manageable.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-04",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Stable. Keeping up with my meds.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-06",
+        "completed": true,
+        "medication_taken": false,
+        "medication_explain": "Forgot my dose.",
+        "tasks_completed": false,
+        "voice_note": "My sleep is getting worse again. I'm starting to feel that heavy weight in my chest. I've been forgetting my meds the last few days.",
+        "value": 2,
+        "mental_state_summary": "Clinical Distress.",
+        "actions": "Agent changed frequency to daily due to worsening trend"
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-07",
+        "completed": true,
+        "medication_taken": false,
+        "medication_explain": "Forgot my dose.",
+        "tasks_completed": false,
+        "voice_note": "I don't even want to be here anymore. Everything feels completely pointless. I've been thinking about how I could just end it all... I can't stop these thoughts about hurting myself.",
+        "value": 1,
+        "mental_state_summary": "Clinical Distress.",
+        "actions": "Agent emailed provider due to high-risk self-harm ideation"
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-08",
+        "completed": true,
+        "medication_taken": false,
+        "medication_explain": "Forgot my dose.",
+        "tasks_completed": false,
+        "voice_note": "Still feeling very dark, but my sister stayed the night. I spoke with the crisis team.",
+        "value": 1,
+        "mental_state_summary": "Clinical Distress.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-09",
+        "completed": true,
+        "medication_taken": false,
+        "medication_explain": "Forgot my dose.",
+        "tasks_completed": false,
+        "voice_note": "A tiny bit better today. Saw Dr. Doe this morning for an emergency session.",
+        "value": 2,
+        "mental_state_summary": "Clinical Distress.",
+        "actions": "Agent reset frequency to 2 days following clinical stabilization"
+      },
+      {
+        "type": "provider-visit",
+        "date": "2026-05-09",
+        "prescriptions": [
+          "Wellbutrin 150mg",
+          "Lexapro 10mg"
+        ],
+        "notes": "EMERGENCY FOLLOW-UP VISIT\n(Triggered by Digital Alert)\n\nChief Complaint:\n29-year-old woman presents with acute worsening of mood and suicidal ideation.\n\nSubjective:\nSarah reports a 'downward spiral' over the last 48 hours. Triggered by a digital check-in alert where she reported self-harm thoughts. Denies active intent or plan but describes persistent 'passive' thoughts of not wanting to be here. Reports stopping medications 3 days ago due to feeling 'hopeless'.\n\nObjective:\nPatient appeared tearful and disheveled. Psychomotor retardation noted. Mood is 'desperate', affect is flat.\n\nAssessment:\nMDD, recurrent, severe, with acute suicidal ideation.\n\nPlan:\n1. Crisis intervention.\n2. Safety plan updated: Sister will reside with patient for next 72 hours.\n3. Medication adherence discussed: Re-start Lexapro and Wellbutrin immediately.\n4. Referral to intensive outpatient program (IOP) discussed.\n5. Increased digital check-in frequency to daily for high-risk monitoring. Will reassess in 72 hours."
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-11",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Slowly getting back to my routine. Taking it one hour at a time.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-13",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Had a much better weekend. I actually went to the park and sat in the sun for an hour.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": "Agent changed frequency to 3 days due to significant mood improvement"
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-16",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Feeling quite positive today. Energy levels are much higher. Meds are consistent.",
+        "value": 5,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-19",
+        "completed": true,
+        "medication_taken": true,
+        "medication_explain": "",
+        "tasks_completed": true,
+        "voice_note": "Feeling stable today. Just a normal, okay day.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": "Agent reset frequency to 2 days (default maintenance)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Michael Chen",
+    "condition": "Social Anxiety Disorder",
+    "nextProviderVisitDate": "2026-06-12",
+    "medications": [
+      "Zoloft 50mg",
+      "Buspirone 15mg"
+    ],
+    "history": [
+      {
+        "type": "provider-visit",
+        "date": "2025-12-01",
+        "prescriptions": [
+          "Zoloft 50mg",
+          "Buspirone 15mg"
+        ],
+        "notes": "PSYCHIATRIC INTAKE NOTE\n\nChief Complaint:\n28-year-old man presents stating, 'I can't be around people without my heart racing.'\n\nHistory of Present Illness:\nMichael is a 28-year-old male reporting lifelong social anxiety that has worsened recently with a new role requiring client presentations. Reports heart palpitations, sweating, and 'mind going blank' in social situations. Avoids meetings and social gatherings. No history of depressive episodes.\n\nSocial History:\nWorks as a software engineer, few close friends, lives with roommates.\n\nMental Status Exam:\nMichael is cooperative but avoids eye contact. Fidgety during the interview. Speech is hesitant. Mood is 'anxious', affect is anxious. Thought process is goal-directed.\n\nDiagnosis:\nSocial Anxiety Disorder (300.23).\n\nTreatment Plan:\n1. Initiate Sertraline (Zoloft) 50mg daily.\n2. Initiate Buspirone 15mg BID for physical anxiety symptoms.\n3. CBT-based exposure exercises discussed.\n4. Deep breathing and grounding techniques taught in session.\n5. Digital check-ins scheduled to monitor social anxiety triggers and medication response."
+      },
+      {
+        "type": "check-in",
+        "date": "2025-12-04",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "I actually went to the grocery store today and didn't feel completely overwhelmed. Breathing exercises helped.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2025-12-08",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Had a team meeting at work. Spoke up once. Felt my heart racing, but I got through it.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2025-12-12",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Feeling decent today. Just stayed home and read, so no major triggers.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2025-12-16",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "A friend invited me out for coffee. I went. It was exhausting but I'm glad I did it.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2025-12-20",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "The medication seems to be taking the edge off. I didn't panic when the phone rang today.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2025-12-24",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Had to make a phone call to the bank. Rehearsed it three times, but it went fine.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2025-12-28",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Felt calm today. Did my mindfulness exercises this morning and it set a good tone.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-01-01",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Pretty good day. Walked in the park and smiled at a neighbor without freaking out.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-01-05",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Managed to eat lunch in the cafeteria today instead of at my desk. Small victory.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-01-09",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Feeling okay. The Buspirone helps when I feel the physical tension starting.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-01-13",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Had a conversation with a cashier and made eye contact. Feeling proud of myself.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-01-17",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Smooth day. No major social interactions, which gave me time to recharge.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-01-21",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Practiced my grounding techniques when I felt a bit anxious. They worked quickly.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-01-25",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Feeling pretty stable. Sleeping better definitely helps my baseline anxiety.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-01-29",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Attended a small gathering. Left early, but I consider showing up a win.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-02-02",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Feeling a bit tense today. Avoided the breakroom at work because there were too many people.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-02-06",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Had to cancel plans tonight. Just felt too exhausted and anxious to deal with socializing.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-02-10",
+        "completed": false
+      },
+      {
+        "type": "check-in",
+        "date": "2026-02-14",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "My chest felt tight all morning. Used my breathing techniques but still felt on edge.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-02-18",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "A bit overwhelmed today. Too many emails and people asking me questions. Just want to hide.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-02-22",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Not great. Someone bumped into me and I almost had a panic attack. Took my meds.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-02-26",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Felt really self-conscious during a video call today. Kept my camera off.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-03-02",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Anxiety is bubbling up today for no specific reason. Trying to stay grounded.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-03-06",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Overthought a brief interaction with my manager. Can't stop replaying it in my head.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-03-10",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Didn't sleep well and my social battery is at zero. Skipped my morning walk to avoid people.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-03-14",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Feeling jittery. The physical symptoms of anxiety are really strong today.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-03-18",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Thinking about my upcoming presentation is making it hard to focus on anything else.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-03-22",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Had to excuse myself from a conversation today because I felt a panic attack coming on.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-03-26",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Feeling a bit discouraged. I thought I was doing better, but today was tough.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-03-30",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "The physical symptoms (sweating, shaking) are less today, but the 'worry' is still there.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-03",
+        "completed": false
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-07",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "I managed to stay in a social situation for 30 minutes longer than I planned. Progress.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-11",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Feeling restless. My mind is racing about everything I might have said wrong yesterday.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-15",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "A quiet day, which is exactly what I needed. Minimal social pressure.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-19",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "I feel like I'm finally starting to see the 'gap' between my thoughts and my reactions.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-23",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Social situations still feel like a performance, but I'm getting better at the role.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-04-27",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Energy is low today. Socializing feels like a chore I'm not ready for.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-01",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Actually looking forward to a small meetup tomorrow. That's a new feeling.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-05",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "The Buspirone is definitely helping with the morning jitters. Feeling more stable.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-09",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "I had a minor setback today, but I used my grounding techniques and didn't spiral.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-13",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Feeling grateful for the progress I've made, even if it feels slow sometimes.",
+        "value": 3,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      },
+      {
+        "type": "check-in",
+        "date": "2026-05-17",
+        "completed": true,
+        "medication_taken": true,
+        "tasks_completed": true,
+        "voice_note": "Today was a neutral day. No big wins, but no big anxieties either.",
+        "value": 4,
+        "mental_state_summary": "Stable.",
+        "actions": ""
+      }
+    ]
+  }
+]
